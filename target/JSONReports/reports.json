@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-02T06:18:35.940Z",
+        "line": 3,
+        "name": "Check login is successful with valid cridencials",
+        "description": "",
+        "id": "validating-login-functionality;check-login-is-successful-with-valid-cridencials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7436917500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open crome browser",
+            "match": {
+              "location": "LoginPage.user_open_crome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2926832500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginPage.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2567806800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "LoginPage.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2323458700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginPage.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2281234000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user naviagte home page",
+            "match": {
+              "location": "LoginPage.user_naviagte_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2077977000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on logout button",
+            "match": {
+              "location": "LoginPage.user_click_on_logout_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Login functionality",
+    "description": "",
+    "id": "validating-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
